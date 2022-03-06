@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/navbar.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/utilities.css">
+    <title>Vite App</title>
+  </head>
+  <body>
+    <nav class="main-nav-bar">
+      <div class="nav-logo">
+        <img src="./images/avishkar2021finallogo.png" alt="logo" class="img"/>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#" class="nav-anchor">HOME</a></li>
+        <li><a href="#" class="nav-anchor">ABOUT</a></li>
+        <li><a href="#" class="nav-anchor">GALLERY</a></li>
+        <li class="dropdown">
+          <a class="topdown nav-anchor">MORE<span class="topupspan">&#8702;</span></a>
+          <ul class="more" id="More">
+          <li><a href="#" class="nav-dropdown">SAMPLE</a></li>
+          <li class="download-dropdown"><a class="nav-dropdown" id="nav-drop-list">ProjectTitles <span class="topupspan">&#8702;</span> </a>
+            <ul class="download">
+              <li><a href="../space-tourism-website-fig.pdf" class="nav-dropdown download-links" download>CSE</a></li>
+              <li><a href="../space-tourism-website-fig.pdf" class="nav-dropdown download-links" download>CSE</a></li>
+              <li><a href="../space-tourism-website-fig.pdf" class="nav-dropdown download-links" download>CSE</a></li>
+              <li><a href="../space-tourism-website-fig.pdf" class="nav-dropdown download-links" download>CSE</a></li>
+            </ul>
+          </li>
+          <li><a href="#" class="nav-dropdown">FAQ'S</a></li>
+          <li><a href="#" class="nav-dropdown">RESOURCES</a></li>
+          </ul>
+      </li>
+        <li><a href="#" class="nav-anchor">TEAM</a></li>
+      </ul>
+      <div class="hamburger">
+        <div class="burger l1"></div>
+        <div class="burger l2"></div>
+        <div class="burger l3"></div>
+      </div>
+    </nav>
+    <main class="main-contemt">
+      <section class="register-section">
+        <div class="register-section-heading">
+          <h3>The most awaited event is here</h3>
+        </div>
+        <button class="register">Register</button>
+      </section>
+      <section class="timer">
+        <div class="background days">
+          <h3>00</h3>
+          <p>days</p>
+        </div>
+        <div class="background hours">
+          <h3>00</h3>
+          <p>hours</p>
+        </div>
+        <div class="background minutes">
+          <h3>00</h3>
+          <p>minutes</p>
+        </div>
+        <div class="background seconds">
+          <h3>00</h3>
+          <p>seconds</p>
+        </div>
+      </section>
+      <section class="about">
+        <div class="avk-2k22-logo">
+          <img src="./images/184255645_1544760632590257_8704735384338525845_n.jpg" alt="">
+        </div>
+        <div class="info">
+          <h3>AVISHKAR</h3>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo quasi, suscipit consectetur esse alias magnam voluptatem ea labore, impedit distinctio laudantium quisquam. Modi laudantium animi fuga odio deleniti quibusdam quae!</p>
+        </div>
+      </section>
+      <footer>
+        <p>@CopyrightsReserved<span id="year"></span></p>
+      </footer>
+    </main>
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
