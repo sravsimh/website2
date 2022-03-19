@@ -1,0 +1,99 @@
+.heading-main-page{
+    background-image: url("../images/Rectangle\ 20.png"); 
+    background-position: center;
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+    aspect-ratio: 10/1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color:antiquewhite;
+    font-size:2rem;
+}
+.column-icons {
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    width: 19rem;
+    height: 12rem;
+    padding: 0.5em 0.5em;
+    margin-bottom: 1rem;
+}
+.container{
+    min-width: 100%;
+}
+#icn {
+    width: 4rem;
+    height: 3.7rem;
+    /* background-color: orangered; */
+    /* color: black; */
+    display: flex!important;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid;
+    border-radius: 18px;
+ font-size: 2rem;
+}
+.contact-details{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin: 13rem 0rem;
+}
+.ic-1{
+    width: 18rem;
+    aspect-ratio: 1;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3rem;
+    box-shadow: 0 0 1rem #000;
+}
+.ic-1 p{
+    font-size: 1.3rem;
+}
+#grid {
+    padding: 0.5em 0.5em;
+    margin: 0rem;
+}
+
+.row {
+    justify-content: space-around;
+    margin: 13.5rem 0rem;
+    width: max-content;
+    gap: 0.5rem;
+}
+
+.column-icons {
+    font-size: 2.5rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+.h2,
+h2 {
+    font-size: calc(0.325rem + 0.9vw);
+}
+@media screen and (max-width:747px){
+ .contact-details{
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+ }
+    .heading-main-page{
+        aspect-ratio: 4/1;
+    }
+    
+}

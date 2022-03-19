@@ -6,3 +6,51 @@ p{
     font-size: 2rem;
     text-align: justify;
 }
+.main-heading{
+    text-transform: uppercase;
+    color: white;
+    padding: 2rem 5rem 0;
+}
+.mainheading{
+    text-align: left;
+    position: relative;
+    padding: 2rem 5rem 0;
+    color: #000;
+}
+ /* .mainheading::before{
+    content:"";
+    position: absolute;
+    height: 0.2rem;
+    width: 10%;
+    background-color: blue;
+    bottom:-50%;
+    left: 0%;
+     opacity: 1;
+     transform: rotate(90deg); 
+    /* animation: line 1s linear  infinite alternate-reverse; 
+}  
+@keyframes line{
+    from{
+        width: 0%;
+    }
+    to{
+        width: 50%;
+    }
+}*/
+
+@media screen and (max-width:747px){
+    h1{
+        font-size:1.2rem;
+    }
+    .mainheading {
+        text-align: left;
+        position: relative;
+        padding: 0rem 0rem 0;
+        font-size: 2.2rem;
+    }
+    
+}
+
+.page-heading{
+    font-size:1rem;
+}
