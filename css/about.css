@@ -83,8 +83,10 @@ h1 {
     margin-top: 1.25rem;
 } */
 @media screen and (max-width:747px){
-  
-       .heading-main-page{
+     h2{
+         font-size: 1.5rem;
+     }  
+       .header{
            aspect-ratio: 3/1;
        }
        
