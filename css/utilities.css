@@ -3,7 +3,7 @@ h3{
     text-align: center;
 }
 p{
-    font-size: 2rem;
+    font-size: 1.7rem;
     text-align: justify;
 }
 .main-heading{
@@ -14,7 +14,7 @@ p{
 .mainheading{
     text-align: left;
     position: relative;
-    padding: 2rem 5rem 0;
+    padding: 2rem 0rem 2rem;
     color: #000;
 }
  /* .mainheading::before{
@@ -45,8 +45,8 @@ p{
     .mainheading {
         text-align: left;
         position: relative;
-        padding: 0rem 0rem 0;
-        font-size: 2.2rem;
+        padding: 0rem 0rem 1rem;
+        font-size: 3rem;
     }
     
 }

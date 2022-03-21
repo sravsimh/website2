@@ -24,8 +24,12 @@
 
 .gallery-page-container{
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(auto-fit, minmax(33%,25rem));
     justify-items: center;
+    margin: 1rem auto;
+    align-items: center;
+    justify-content: center;
+
 }
 .text p{
     text-align: center;
@@ -42,9 +46,7 @@
 .gallery-page-img-container:hover .gallery-page-img{
     width: 100%;
 }
-.gallery-page-container{
-    margin:1rem auto;
-}
+
 .gallery-page-img{
     width: inherit;
 }

@@ -71,7 +71,7 @@ body{
     right:0%;
 }
 .timmer{
-    margin:12rem 0rem;
+    margin:6rem 0rem 0rem;
     background-color: #FFF;
 }
 .timer{
@@ -133,7 +133,7 @@ font-size: 2.3rem;
     justify-content: space-around;
     align-items: center;
     /* box-shadow: var(--boxshadow); */
-    margin: 5rem 0rem;
+    /* margin: 5rem 0rem; */
     gap:3rem;
     /* background-color: #000; */
 }
@@ -149,9 +149,9 @@ font-size: 2.3rem;
 .gallery{
     display:block;
     margin: auto;
-    max-width: 100%;
+    max-width: 90%;
     background-image: none;
-    margin:12rem 0rem;
+    /* margin:12rem 0rem; */
     /* background-color: ; */
 }
 .gallery-heading{
@@ -226,6 +226,7 @@ font-size: 2.3rem;
     /* display: flex; */
     background-color:rgb(49 41 62); ;
     position: relative;
+    /* margin: auto; */
 }
 .container{
     display: grid;
@@ -366,8 +367,12 @@ font-size: 2.3rem;
     .next{
         right:0%;
     }
+    .container_testimonials{
+        max-width: 80%;
+        margin: auto;
+    }
 }
-@media screen and (max-width:856px){
+@media screen and (max-width:900px){
     .register-section{
        aspect-ratio: 1;
     }

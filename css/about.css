@@ -46,7 +46,7 @@ h1 {
 } */
 .para{
     margin:0 0 4rem;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 
 }
 .header h2 {
@@ -61,7 +61,7 @@ h1 {
 
 
 .parag {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     text-align: left;
     padding: 5px 5px;
 }
@@ -85,7 +85,15 @@ h1 {
 @media screen and (max-width:747px){
      h2{
          font-size: 1.5rem;
-     }  
+        }  
+        h1{
+            font-size: 1.5rem;
+            
+        }
+        .parag{
+         font-size: 1.2rem;
+
+     }
        .header{
            aspect-ratio: 3/1;
        }

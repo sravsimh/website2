@@ -42,7 +42,7 @@ function timmer(){
   const EventTime = new Date("march 21,2022 00:00:00").getTime();
   const CurrentTime = new Date().getTime()
   const TimeLeft = EventTime-CurrentTime;
-  if (TimeLeft<CurrentTime) {
+  if (TimeLef>CurrentTime) {
   const seconds = 1000
   const Minutes = seconds*60;
   const hours = Minutes*60;
@@ -60,7 +60,7 @@ function timmer(){
 setInterval(timmer,1000)
 const headingCarosoul1 = ()=>{
   heading.innerText = "AVISHKAR";
-  register.classList.toggle("opacity");
+  // register.classList.toggle("opacity");
 }
 const headingCarosoul2 = ()=>{
   heading.innerText = "The most awaited event is here";

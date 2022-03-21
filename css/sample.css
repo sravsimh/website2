@@ -16,6 +16,11 @@
 .sample-vedio{
     margin: 5rem auto;
     width: fit-content;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .sample-vedio ul li{
     margin:3rem auto;
@@ -32,12 +37,19 @@
     width:50rem;
     aspect-ratio: 2/1;
 }
-@media screen  and (max-width:747px){
+@media screen and (max-width:1129px){
     .iframe{
-        width:27rem;
+        width:90vw;
         aspect-ratio: 2/1;
     }
     
-            
+    @media screen  and (max-width:747px){
+        .iframe{
+            /* width: 50vw !important; */
+            aspect-ratio: 2/1;
+        }
         
-    }
+        
+            
+        }
+}

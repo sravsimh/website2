@@ -237,8 +237,8 @@ footer>p{
 }
 #icn1{
     color: #fff;
-    font-size: 1rem;
-    margin: 0 0.4rem;
+    font-size: 2.4rem;
+    margin: 0 1rem;
 }
 .download-dropdown:hover  .download{
     display:block;
@@ -266,6 +266,9 @@ footer>p{
 ::-webkit-scrollbar-corner{
     background-color: #888;
 } */
+.img1{
+    width: inherit;
+}
 @media screen  and (max-width:747px){
     .hamburger{
         display: block;

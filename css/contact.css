@@ -24,6 +24,10 @@
 }
 .container{
     min-width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #icn {
     width: 4rem;
@@ -45,6 +49,7 @@
     gap: 1rem;
     justify-content: center;
     margin: 13rem 0rem;
+    flex-wrap: wrap;
 }
 .ic-1{
     width: 18rem;
