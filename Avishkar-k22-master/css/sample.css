@@ -1,0 +1,55 @@
+.heading-main-page {
+    background-image: url("../images/Rectangle\ 20.png");
+    background-position: center;
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+    aspect-ratio: 10/1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: antiquewhite;
+    font-size: 2rem;
+}
+
+.sample-vedio {
+    margin: 5rem auto;
+    width: fit-content;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sample-vedio ul li {
+    margin: 3rem auto;
+}
+
+.sample-vedio ul li a {
+    font-size: 1.2rem;
+    text-decoration: none;
+    /* margin: 25rem auto; */
+    color: orange;
+    font-weight: 900;
+}
+
+.iframe {
+    width: 50rem;
+    aspect-ratio: 2/1;
+}
+
+@media screen and (max-width:1129px) {
+    .iframe {
+        width: 90vw;
+        aspect-ratio: 2/1;
+    }
+    @media screen and (max-width:747px) {
+        .iframe {
+            /* width: 50vw !important; */
+            aspect-ratio: 2/1;
+        }
+    }
+}

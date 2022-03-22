@@ -1,0 +1,70 @@
+.header {
+        background-image: url("../images/Rectangle\ 20.png"); 
+        background-position: center;
+        /* background-attachment: fixed; */
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-blend-mode: darken;
+        aspect-ratio: 10/1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        color:antiquewhite;
+        font-size:3rem;
+    
+}
+
+.faqs {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: 2px solid black;
+    padding: 5em 4em;
+}
+
+.question {
+    cursor: pointer;
+}
+
+.ans {
+    display: none;
+}
+
+.question:hover+.ans {
+    display: block;
+}
+
+
+/* .question:focus+.ans {
+    display: block;
+} */
+
+.footer {
+    background-image: url(/images/footer.jpeg);
+    background-position: center;
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+    aspect-ratio: 26/1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: antiquewhite;
+    font-size: 2rem;
+    margin-top: 1.25rem;
+}
+
+.h2,
+h2 {
+    font-size: calc(0.325rem + 0.9vw);
+}
+@media screen and (max-width:747px){
+    
+    .heading-main-page{
+        aspect-ratio: 4/1;
+    }
+    
+}
