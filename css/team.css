@@ -1,0 +1,98 @@
+.heading-main-page{
+    background-image: url("../images/Rectangle\ 20.png"); 
+    background-position: center;
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+    aspect-ratio: 10/1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color:antiquewhite;
+    font-size:2rem;
+}
+.container{
+    display:block;
+    /* margin: auto; */
+    max-width:fit-content;
+    box-shadow: 0 0 5px #000;
+    margin:1rem auto;
+}
+
+
+.gallery-page-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(33%,25rem));
+    justify-items: center;
+    margin: 1rem auto;
+    align-items: center;
+    justify-content: center;
+
+}
+.text p{
+    text-align: center;
+}
+.gallery-page-img-container{
+    width: 20rem;
+    margin:1rem ;
+    /* position:relative; */
+    transition: all 1s ease-in ;
+    cursor: pointer;
+    z-index: -1;
+    /* margin: auto; */
+}
+.gallery-page-img-container:hover .gallery-page-img{
+    width: 100%;
+}
+
+.gallery-page-img{
+    width: inherit;
+}
+.gallery-page-img:hover{
+    width: 100%;
+    aspect-ratio: 1;
+}
+.social-link{
+   background-color: rgba(0,0,  0, 0.6);
+   position: absolute;
+   width: 100%;
+   /* top: 0%; */
+   height: 0%;
+   bottom: 0%;
+   /* display: none; */
+   opacity: 0;
+   transition:all 600ms ease-in;
+z-index: -1;
+}
+.gallery-page-img-container:hover{
+    transform: scaleZ(-1);
+    z-index: 1;
+}
+.gallery-page-img-container:hover .social-link{
+  /* transform:scaleZ(1.5); */
+  opacity: 1;
+  width: 100%;
+  height: 35%;
+  bottom: 0%;
+  /* left:0%; */
+  /* bottom:0%; */
+  z-index: 2;
+}
+.text{
+    padding: 0 0 2rem 0;
+}
+
+@media screen and (max-width:747px){
+    
+    .gallery-page-container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        /* justify-items: center; */
+    }
+    .heading-main-page{
+        aspect-ratio: 4/1;
+    }
+    
+}

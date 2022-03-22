@@ -1,0 +1,101 @@
+body{
+    background-color: #FFF;
+}
+.header {
+    background-image: url("../images/Rectangle\ 20.png");
+    background-position: center;
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+    aspect-ratio: 10/1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: antiquewhite;
+    font-size: 3rem;
+    margin: 0rem;
+}
+
+h1,h2{
+    font-size:2rem;
+    font-family: 'Open Sans', sans-serif;
+}
+h1 {
+    
+    text-decoration-line: underline;
+    color: #1b9727;
+    margin:4rem 0 2rem;
+    
+}
+.about-page{
+    max-width: 100%;
+    margin: 3rem 1rem;
+}
+.INTRO{
+    margin:4rem 0 4rem;
+}
+.what-is-avk{
+    margin:4rem 0 4rem;
+    
+}
+/* div{
+    margin:4rem 0 4rem;
+    
+} */
+.para{
+    margin:0 0 4rem;
+    font-size: 1.3rem;
+
+}
+.header h2 {
+    font-size:3rem;
+    text-decoration-line: underline;
+    color: #FA10FF;
+    padding: 5px 5px;
+    /* margin-left: 20px; */
+}
+
+
+
+
+.parag {
+    font-size: 1.3rem;
+    text-align: left;
+    padding: 5px 5px;
+}
+
+/* .footer {
+    background-image: url(/images/footer.jpeg);
+    background-position: center;
+    /* background-attachment: fixed; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+    aspect-ratio: 26/1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: antiquewhite;
+    font-size: 2rem;
+    margin-top: 1.25rem;
+} */
+@media screen and (max-width:747px){
+     h2{
+         font-size: 1.5rem;
+        }  
+        h1{
+            font-size: 1.5rem;
+            
+        }
+        .parag{
+         font-size: 1.2rem;
+
+     }
+       .header{
+           aspect-ratio: 3/1;
+       }
+       
+   }
